@@ -44,7 +44,7 @@ public class Conversion {
         inputHour = inputHour - 8;
         if (inputHour < 0) {
             inputHour = inputHour + 24;
-            return "Converted from PST to CET: " + inputHour + inputMin + " (of the day before)";}
+            return "Converted from JST to CET: " + inputHour + inputMin + " (of the day before)";}
         return "Converted from JST to CET: " + inputHour + inputMin;
     }
 
@@ -52,7 +52,7 @@ public class Conversion {
         inputHour = inputHour - 7;
         if (inputHour < 0) {
             inputHour = inputHour + 24;
-            return "Converted from PST to CET: " + inputHour + inputMin + " (of the day before)";}
+            return "Converted from BJT to CET: " + inputHour + inputMin + " (of the day before)";}
         return "Converted from BJT to CET: " + inputHour + inputMin;
     }
 
@@ -60,7 +60,7 @@ public class Conversion {
         inputHour = inputHour - 10;
         if (inputHour < 0) {
             inputHour = inputHour + 24;
-            return "Converted from PST to CET: " + inputHour + inputMin + " (of the day before)";}
+            return "Converted from ACT to CET: " + inputHour + inputMin + " (of the day before)";}
         return "Converted from ACT to CET: " + inputHour + inputMin;
     }
 }
